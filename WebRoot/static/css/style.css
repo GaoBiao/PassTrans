@@ -1,0 +1,8 @@
+/* 全局样式 */
+*{font-family:Arial,微软雅黑}
+*{margin:0;padding:0;}
+li dl{list-style-type:none;}
+body,html,*+html{margin:0;height:100%;font-size:14px;}
+ul,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,img,input{padding:0;margin:0;}
+
+.markbtn{background:url("../images/addbtn.gif") no-repeat 0 0;display:inline-block;width:202px;height:47px;text-indent: -999px;}

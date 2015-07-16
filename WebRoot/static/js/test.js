@@ -1,0 +1,1 @@
+javascript:void((function(){var element=document.getElementById("passtrans_js");if(element){pt_init();}else{element=document.createElement('script');element.id='passtrans_js';element.charset='utf-8',element.setAttribute('src','<%=basePath%>static/js/passtrans.js?'+Date.parse(new Date()));document.body.appendChild(element);}})());
