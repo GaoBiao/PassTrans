@@ -12,4 +12,12 @@
 		<servlet-name>PassTransServlet</servlet-name>
 		<url-pattern>/passtrans</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>VersionServlet</servlet-name>
+		<servlet-class>com.goo.passtrans.servlet.VersionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VersionServlet</servlet-name>
+		<url-pattern>/version</url-pattern>
+	</servlet-mapping>
 </web-app>
