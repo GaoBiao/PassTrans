@@ -21,7 +21,8 @@ public class VersionServlet extends HttpServlet {
 		String path = request.getContextPath();
 		String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
 		JSONObject json = new JSONObject();
-		json.put("version", 2);
+		json.put("versionCode", 4);
+		json.put("versionName", "1.0.3");
 		json.put("upgradeUrl", basePath + "static/app/passsave.apk");
 		response.getWriter().print(json);
 	}
